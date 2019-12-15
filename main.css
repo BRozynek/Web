@@ -1,0 +1,147 @@
+body{
+    background-color:rgba(17, 18, 63, 0.685);
+    color: lightseagreen;
+    font-family: 'Cinzel', serif;
+    margin: 0 !important;
+}
+.wrapper{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    padding: 40px 0;
+}
+.logo{
+    width: 450px;
+    font-size: 38px;
+    border: 1px solid rgb(53, 206, 193);
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    text-align: center;
+
+}
+.nav{
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(32, 178, 171, 0.788);
+    text-align: center;
+    height: 30px;
+}
+.content{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding-top: 10px;
+    
+}
+.socials{
+    width: 100%;
+    text-align: center;
+    background-color:rgba(32, 178, 171, 0.219) ;
+}
+.social-divs{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fb{
+    width: 250px;
+    height: 155px;
+    float: left;
+}
+.fb:hover{
+    background-color: #4668b3;
+}
+.yt{
+    width: 250px;
+    height: 155px;
+    float: left;
+}
+.yt:hover{
+    background-color: #d94348;
+}
+.tw{
+    width: 250px;
+    height: 155px;
+    float: left;
+}
+.tw:hover{
+    background-color: #3095d3;
+}
+.gplus{
+    width: 250px;
+    height: 155px;
+    float: left;
+}
+.gplus:hover{
+    background-color: #d95333;
+}
+.footer{
+    text-align: center;
+
+}
+.sticky{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+ol{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+}
+ol a{
+    color: rgba(17, 18, 63, 0.685);
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+ol > li{
+    float: left;
+    width: 150px;
+    height: 35px;
+    border-right: 1px dashed steelblue;
+}
+ol > li:first-child{
+    border-left: 1px dashed steelblue;
+}
+
+ol > li:hover{
+    background-color:rgba(86, 224, 217, 0.788);
+}
+
+ol > li:hover> a{
+    color: rgb(168, 97, 226);
+}
+ol > li > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+} 
+
+ol > li:hover> ul{
+    display: block;
+}
+
+ol > li > ul > li{
+    background-color: rgba(86, 224, 217, 0.788);
+    position: relative;
+    z-index: 100;
+    border-top: 1px dashed steelblue;
+}
+ol > li > ul > li:hover{
+    background-color: rgba(32, 178, 171, 0.788);
+}
+ol > li > ul > li:hover> a{
+    color: rgb(123, 42, 190);
+}
