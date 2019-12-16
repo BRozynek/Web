@@ -1,16 +1,19 @@
 body{
-    background-color:rgba(17, 18, 63, 0.685);
+    background-image: url("escheresque_ste.png");
     color: lightseagreen;
     font-family: 'Cinzel', serif;
     margin: 0 !important;
 }
+
 .wrapper{
     width: 100%;
 }
+
 .header{
     width: 100%;
     padding: 40px 0;
 }
+
 .logo{
     width: 450px;
     font-size: 38px;
@@ -19,8 +22,8 @@ body{
     margin-right: auto;
     font-weight: 700;
     text-align: center;
-
 }
+
 .nav{
     width: 100%;
     padding: 10px 0;
@@ -34,19 +37,22 @@ body{
     margin-right: auto;
     text-align: justify;
     padding-top: 10px;
-    
+    background-color: rgba(73, 73, 73, 0.37);
 }
+
 .socials{
     width: 100%;
     text-align: center;
     background-color:rgba(32, 178, 171, 0.219) ;
 }
+
 .social-divs{
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
-.fb{
+
+.fb, .yt, .tw, gplus{
     width: 250px;
     height: 155px;
     float: left;
@@ -54,34 +60,23 @@ body{
 .fb:hover{
     background-color: #4668b3;
 }
-.yt{
-    width: 250px;
-    height: 155px;
-    float: left;
-}
+
 .yt:hover{
     background-color: #d94348;
 }
-.tw{
-    width: 250px;
-    height: 155px;
-    float: left;
-}
+
 .tw:hover{
     background-color: #3095d3;
 }
-.gplus{
-    width: 250px;
-    height: 155px;
-    float: left;
-}
+
 .gplus:hover{
     background-color: #d95333;
 }
+
 .footer{
     text-align: center;
-
 }
+
 .sticky{
     width: 100%;
     position: fixed;
@@ -119,8 +114,9 @@ ol > li:hover{
 }
 
 ol > li:hover> a{
-    color: rgb(168, 97, 226);
+    color: rgb(248, 248, 248);
 }
+
 ol > li > ul{
     list-style-type: none;
     padding: 0;
@@ -139,9 +135,11 @@ ol > li > ul > li{
     z-index: 100;
     border-top: 1px dashed steelblue;
 }
+
 ol > li > ul > li:hover{
     background-color: rgba(32, 178, 171, 0.788);
 }
+
 ol > li > ul > li:hover> a{
-    color: rgb(123, 42, 190);
+    color: rgb(248, 248, 248);
 }
